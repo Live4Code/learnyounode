@@ -30,7 +30,7 @@ The `response` object / Stream that you get from `http.get()` also has a `setEnc
 
 Check to see if your program is correct by running this command:
 
-`node program.js http://www.live.com/ping`
+`node program.js http://www.live4code.com/ping`
 
 or by pressing the Submit button.
 
