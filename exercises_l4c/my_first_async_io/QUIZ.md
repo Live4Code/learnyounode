@@ -21,3 +21,9 @@ Documentation on the `fs` module can be found by pointing your browser here:
   {rootdir:/node_apidoc/fs.html}
 
 ----------------------------------------------------------------------
+Check to see if your program is correct by running this command:
+
+`node program.js data.txt` 
+
+or by pressing the Submit button.
+

@@ -58,3 +58,9 @@ function bar (callback) {
 ```
 
 ----------------------------------------------------------------------
+Check to see if your program is correct by running this command:
+
+`node program.js . md`
+
+or by pressing the Submit button.
+

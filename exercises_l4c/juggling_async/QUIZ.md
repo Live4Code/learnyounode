@@ -12,3 +12,10 @@ You will need to queue the results and keep track of how many of the URLs have r
 Counting callbacks is one of the fundamental ways of managing async in Node. Rather than doing it yourself, you may find it more convenient to rely on a third-party library such as [async](http://npm.im/async) or [after](http://npm.im/after). But for this exercise, try and do it without any external helper library.
 
 ----------------------------------------------------------------------
+
+Check to see if your program is correct by running this command:
+
+`node program.js http://www.live4code.com/ping http://www.live4code.com/ping http://www.live4code.com/ping`
+
+or by pressing the Submit button.
+

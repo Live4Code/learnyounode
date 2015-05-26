@@ -58,3 +58,10 @@ date.getMinutes()
 Or, if you want to be adventurous, use the `strftime` package from npm. The `strftime(fmt, date)` function takes date formats just like the unix `date` command. You can read more about strftime at: https://github.com/samsonjs/strftime
 
 ----------------------------------------------------------------------
+Check to see if your program is correct by running this command:
+
+`node program.js 8081` 
+`curl http://0.0.0.0:8081/`
+
+or by pressing the Submit button.
+

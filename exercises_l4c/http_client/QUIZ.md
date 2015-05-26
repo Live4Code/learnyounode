@@ -27,3 +27,11 @@ The "data" event is emitted when a chunk of data is available and can be process
 The `response` object / Stream that you get from `http.get()` also has a `setEncoding()` method. If you call this method with "utf8", the "data" events will emit Strings rather than the standard Node `Buffer` objects which you have to explicitly convert to Strings.
 
 ----------------------------------------------------------------------
+
+Check to see if your program is correct by running this command:
+
+`node program.js http://www.live.com/ping`
+
+or by pressing the Submit button.
+
+

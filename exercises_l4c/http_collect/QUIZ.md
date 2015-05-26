@@ -14,25 +14,6 @@ There are two approaches you can take to this problem:
   <http://npm.im/bl>
   <http://npm.im/concat-stream>
 
-To install a Node package, use the Node Package Manager `npm`. Simply type:
-
-```sh
-$ npm install bl
-```
-
-And it will download and install the latest version of the package into a subdirectory named `node_modules`. Any package in this subdirectory under your main program file can be loaded with the `require` syntax without being prefixed by './':
-
-```js
-var bl = require('bl')
-```
-
-Node will first look in the core modules and then in the `node_modules` directory where the package is located.
-
-If you don't have an Internet connection, simply make a `node_modules` directory and copy the entire directory for the package you want to use from inside the {appname} installation directory:
-
-  {rootdir:/node_modules/bl}
-  {rootdir:/node_modules/concat-stream}
-
 Both `bl` and `concat-stream` can have a stream *piped* in to them and they will collect the data for you. Once the stream has ended, a callback will be fired with the data:
 
 ```js
@@ -49,3 +30,10 @@ Documentation for both of these modules has been installed along with {appname} 
   {rootdir:/docs/concat-stream.html}
 
 ----------------------------------------------------------------------
+Check to see if your program is correct by running this command:
+
+`node program.js http://www.live4code.com/ping`
+
+or by pressing the Submit button.
+
+

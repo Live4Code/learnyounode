@@ -50,3 +50,10 @@ The JavaScript `Date` object can print dates in ISO format, e.g. `new Date().toI
 come in handy.
 
 ----------------------------------------------------------------------
+Check to see if your program is correct by running this command:
+
+`node program.js 8084`
+`curl http://0.0.0.0:8084/api/parsetime?iso=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+`curl http://0.0.0.0:8084/api/unixtime?iso=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+
+or by pressing the Submit button.
