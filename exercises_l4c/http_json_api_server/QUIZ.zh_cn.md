@@ -50,3 +50,10 @@ res.writeHead(200, { 'Content-Type': 'application/json' })
 JavaScript 的 `Date` 可以将日期以 ISO 的格式展现出来，如：`new Date().toISOString()`。并且，如果你把一个字符串传给 `Date`的构造函数，它也可以帮你将字符串处理成日期类型。另外，`Date#getTime()` 放个应该也会很有用。
 
 ----------------------------------------------------------------------
+运行下面的命令来检查你的程序是否正确：
+
+`node program.js 8084`
+`curl http://0.0.0.0:8084/api/parsetime?iso=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+`curl http://0.0.0.0:8084/api/unixtime?iso=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+
+或点击｀提交答案｀

@@ -20,18 +20,14 @@ inStream.pipe(map(function (chunk) {
 
 在上面的例子中，从 `inStream` 传进来的数据会被转换成字符串（如果它不是字符串的话），并且字符会反转处理，然后传入 `outStream`。所以，我们这里是做了一个字符串反转器！记住！尽管，数据块（chunk）的大小是由上游（up-stream）所决定的，但是你还是可以在这之上对传进来的数据做一点小小的处理的。
 
-要安装 `through2-map`，输入:
-
-```sh
-$ npm install through2-map
-```
-
-如果你没有联网，你可以简单的创建一个 `node_modules` 子目录，然后从 {appname} 的安装目录中（路径如下所示）完整地将这个模块复制到 `node_modules` 中：
-
-  {rootdir:/node_modules/through2-map}
-
 through2-map 的文档已经随着 {appname} 安装到你的系统中了，用浏览器访问如下路径，即可进行查看：
 
   {rootdir:/docs/through2-map.html}
 
 ----------------------------------------------------------------------
+运行下面的命令来检查你的程序是否正确：
+
+`node program.js 8083`
+`curl -X POST -d @data.txt http://0.0.0.0:8083`
+
+或点击｀提交答案｀

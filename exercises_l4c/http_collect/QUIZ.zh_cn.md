@@ -14,25 +14,6 @@
   <http://npm.im/bl>
   <http://npm.im/concat-stream>
 
-要安装一个 Node 模块，需用到 Node 的包管理工具 `npm`，输入：
-
-```sh
-$ npm install bl
-```
-
-这样，相应的模块的最新版本便会被下载到当前目录下一个名为 `node_modules` 的子目录中。任何在这个子目录中的模块都可以简单地使用 `require` 语法来将模块载入到你的程序中，并且不需要加 `./` 这样的路径前缀，如下所示：
-
-```js
-var bl = require('bl')
-```
-
-这里，Node 会先查找是否有这个名字的核心模块，如果没有，再查找在 `node_modules` 目录下是否有这个模块。
-
-如果你的设备没有联网，你可以简单地手工新建一个 `node_modules` 子目录，然后将你需要的模块从 {appname} 的安装目录中完整复制到 `node_modules` 中。在这里，上文提到的两个模块所在路径如下：
-
-  {rootdir:/node_modules/bl}
-  {rootdir:/node_modules/concat-stream}
-
 你可以把一个 stream *pipe* 到 `bl` 或 `concat-stream` 中去，它们会为你收集数据。一旦 stream 传输结束，一个回调函数会被执行，并且，这个回调函数会带上所收集的数据：
 
 ```js
@@ -49,3 +30,8 @@ response.pipe(concatStream(function (data) { /* ... */ }))
   {rootdir:/docs/concat-stream.html}
 
 ----------------------------------------------------------------------
+运行下面的命令来检查你的程序是否正确：
+
+`node program.js http://www.live4code.com/ping`
+
+或点击｀提交答案｀

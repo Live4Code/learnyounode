@@ -12,3 +12,8 @@
 对回调进行计数是处理 Node 中的异步的基础。比起你自己去做，你会发现去依赖一个第三方的模块或者库会更方便，比如 [async](http://npm.im/async) 或者 [after](http://npm.im/after)。不过，在本次练习中，你应该尝试自己去解决，而不是依赖外部的模块。
 
 ----------------------------------------------------------------------
+运行下面的命令来检查你的程序是否正确：
+
+`node program.js http://www.live4code.com/ping http://www.live4code.com/ping http://www.live4code.com/ping`
+
+或点击｀提交答案｀

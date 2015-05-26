@@ -26,3 +26,8 @@ response.on("data", function (data) { /* ... */ })
 你从 `http.get()` 所获得的 `response` 对象/Stream 还有一个 `setEncoding()` 的方法。如果你调用这个方法，并为其指定参数为 `utf8`，那么 `data` 事件中会传递字符串，而不是标准的 Node `Buffer` 对象，这样，你也不用再手动将 `Buffer` 对象转换成字符串了。
 
 ----------------------------------------------------------------------
+运行下面的命令来检查你的程序是否正确：
+
+`node program.js http://www.live4code.com/ping`
+
+或点击｀提交答案｀

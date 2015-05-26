@@ -21,3 +21,8 @@ function callback (err, data) { /* ... */ }
   {rootdir:/node_apidoc/fs.html}
 
 ----------------------------------------------------------------------
+运行下面的命令来检查你的程序是否正确：
+
+`node program.js data.txt`
+
+或点击｀提交答案｀
